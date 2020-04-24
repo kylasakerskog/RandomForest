@@ -33,7 +33,7 @@ class DecisionTree(ClassifierMixin):
         if all(y[0] == y):
             return this
 
-        # サンプルが全部同じ特徴量を保つ場合は分岐不可能なので葉ノードを返して終了
+        # サンプルが全部同じ特徴量を保つ場合は分岐不可能でleaf
         if (X[0] == X).all():
             return this
 

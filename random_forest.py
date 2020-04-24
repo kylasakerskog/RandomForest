@@ -27,10 +27,8 @@ class RandomForest(ClassifierMixin):
             self._forest[i] = tree
 
     def _bootstrap_sample(self, X, y):
-        """
-        与えられたデータをブートストラップサンプル (復元抽出)
-        同時に、特徴量方向のサンプリングもおこなう。
-        """
+        #与えられたデータをブートストラップサンプル (復元抽出)
+        # 同時に、特徴量方向のサンプリング
         n_features = X.shape[1]
         n_features_forest = np.floor(np.sqrt(n_features))
         bootstrapped_X = list()

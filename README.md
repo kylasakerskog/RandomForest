@@ -1,13 +1,12 @@
 # モチベーション
 - Random Forestの原理を実装を通して理解する
-- [参考](https://qiita.com/deaikei/items/52d84ccfedbfc3b222cb)
-- 消えた時用の[魚拓](http://web.archive.org/web/20170905205619/http://qiita.com:80/deaikei/items/52d84ccfedbfc3b222cb)
+  - [このサイト](https://qiita.com/deaikei/items/52d84ccfedbfc3b222cb)を参考に実装
+  - 消えた時用の[魚拓](http://web.archive.org/web/20170905205619/http://qiita.com:80/deaikei/items/52d84ccfedbfc3b222cb)
 
 ## What is RandomForest
 - 決定木(Decision Tree)をたくさん作って予測を行う手法
 - 決定木を用いたバギング
-  - バギング : 複数のモデルを独自に学習させて，それぞれのモデルの出力を多数決して出力を決める．
-  
+  - バギング : 複数のモデルを独自に学習させて，それぞれのモデルの出力を多数決して出力を決める．  
 
 ## What is Decision Tree
 - 条件分岐の繰り返しによって分類問題を解く教師あり学習のモデル
