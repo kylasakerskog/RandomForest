@@ -17,7 +17,7 @@
   - 不純度の減り方が最大となる分割手法で分割すべし
 
 ## USAGE:
-
+- [iris](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html) のデータセットでテスト
 ```
 $ python3 random_forest.py
 ```
